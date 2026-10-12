@@ -8,7 +8,7 @@ A secure sandbox for scheduled GitHub Actions automation and development experim
 - **Manual repository check** is a read-only workflow for validating the repository without making a commit.
 - Both workflows use GitHub-hosted runners, have a 10-minute timeout, and share a concurrency group so runs do not overlap.
 
-The check uses only the Python standard library; there are no third-party Python dependencies to install or pin. GitHub Actions are referenced by major release tags (`actions/checkout@v4`, `actions/setup-python@v5`).
+The check uses only the Python standard library; there are no third-party Python dependencies to install or pin. GitHub Actions are referenced by major release tags (`actions/checkout@v5`, `actions/setup-python@v6`).
 
 ## Schedule and timezone
 
